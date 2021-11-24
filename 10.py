@@ -11,7 +11,7 @@ def check_if_up(url):
         print(f"sorry, {url} is down")
 
 
-check_if_up("https://www.myspace.com") asdasdaa
+check_if_up("https://www.myspace.com")
 
 
 for i in range(5):
@@ -20,4 +20,4 @@ for i in range(5):
         print("github is up and running")
     sleep(5)
 
-b = 8
+c = 4
