@@ -11,8 +11,9 @@ def check_if_up(url):
         print(f"sorry, {url} is down")
 
 
+check_if_up("https://www.myspace.com")
 
-12
+
 for i in range(5):
     response = requests.get("https://github.com")
     if response.status_code == 200:
